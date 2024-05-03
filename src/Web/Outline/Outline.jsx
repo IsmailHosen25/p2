@@ -1,11 +1,11 @@
+import style from "./Outline.module.css"
 import React from 'react'
-import style from "./Home.module.css"
 import Nav from '../Global/Nav/Nav'
 import ResponsNav from '../Global/ResponsNav/ResponsNav'
 import Footer from '../Global/Footer/Footer'
-import HomeHeader from './Components/HomeHeader'
 import Contact from '../Global/Contact/Contact'
-export default function Home() {
+import Projectshowcase from "./Components/Projectshowcase"
+export default function Outline() {
   return (
     <div className={style.layout}>
         <div className={style.nav}>
@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <ResponsNav/>
         <div className={style.main}>
-          <HomeHeader/>
+          <Projectshowcase/>
           <Contact/>
           <Footer/>
         </div>

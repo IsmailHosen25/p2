@@ -1,3 +1,7 @@
 export const logo_name="Hasan"
 export const name="Md. Ismail Hosen"
 export const profession ="Tutor"
+export const facebook="https://www.facebook.com/profile.php?id=100075446262873"
+export const instagram=""
+export const linkedin=""
+export const twitter=""
