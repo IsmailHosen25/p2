@@ -1,0 +1,80 @@
+.home_header{
+    width: 100%;
+    height: 100vh;
+}
+.hheader_con{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.img{
+   background-image: url("../../../assets/hasan.jpg");
+   width: 300px;
+   height: 300px;
+   background-size: cover;
+   background-position: center center;
+   margin: 20px;
+   box-shadow: 0 5px 5px 5px rgba(13, 110, 253,0.2);
+   animation: animateimg 5s ease-in-out infinite;
+   transition: all 1s ease-in-out;
+}
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.info_h3{
+    font-size: 2rem;
+    color: #F3512F;
+}
+.info_h2{
+    font-size: 3rem;
+}
+.profession{
+    font-size: 1.8rem;
+}
+.span{
+    color: #84D3A3;
+}
+.desc{
+    font-size: 1.8rem;
+}
+.hireme{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color:#F3512F;
+    color: #fff;
+    padding: 0.5rem 1.3rem;
+    transition: 0.2s linear;
+    border: 2px solid #F3512F;
+}
+.hireme:hover{
+    border: 2px solid #F3512F;
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s linear;
+}
+@keyframes animateimg {
+    0%,100%{
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
+    }
+}
+@media (max-width:950px) {
+    .home_header{
+        height: auto;
+    }
+    .hheader_con{
+        flex-wrap: wrap-reverse;
+    }
+    .info{
+        width: 100%;
+    }
+}
