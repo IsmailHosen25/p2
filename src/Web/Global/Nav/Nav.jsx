@@ -3,6 +3,7 @@ import style from "./Nav.module.css"
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import {logo_name,facebook,instagram,linkedin,twitter} from "../../../Data"
+import cv from "../../../assets/Md Ismail Hosen.pdf"
 export default function Nav() {
   return (
     <div className={style.nav_com}>
@@ -12,7 +13,7 @@ export default function Nav() {
                 <div className={style.top_in}>
                     <Link className={style.link1} to={"/about"}>About</Link>
                     <Link className={style.link2} to={"/outline"}>Outline</Link>
-                    <Link className={style.link3} to={""} download>CV</Link>
+                    <a href={cv} className={style.link3} download>CV</a>
                 </div>
 
             </div>

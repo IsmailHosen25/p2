@@ -1,0 +1,25 @@
+.layout{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.nav{
+    width: 250px;
+    height: 100vh;
+    border: 1px solid #E2E5E9;
+    position: sticky;
+    top: 0px;
+}
+.main{
+    width: 100%;
+    padding: 0rem 2rem;
+}
+@media (max-width:720px) {
+    .layout{
+       flex-direction: column;
+    }
+    .nav{
+        display: none;
+    }
+}
