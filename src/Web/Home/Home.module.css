@@ -1,0 +1,23 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    width: 250px;
+    height: 100vh;
+    border: 1px solid #E2E5E9;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+@media (max-width:720px) {
+    .home{
+       flex-direction: column;
+    }
+    .nav{
+        display: none;
+    }
+}

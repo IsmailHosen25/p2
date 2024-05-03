@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+.nav_com{
+    display: none;
+    width: 100%;
+    padding: 0.8rem 0rem 0.5rem 0rem;
+}
+.nav_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.logo{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: black;
+    padding: 0.3rem 1rem;
+    background-color: #F3F2F2;
+    font-family: "Briem Hand", cursive;
+
+}
+.link{
+    font-size: 2rem;
+    text-decoration: none;
+    color:#000;
+}
+@media (max-width:720px) {
+    .nav_com{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:480px){
+    .logo{
+        font-size: 2rem;
+    }
+    .link{
+        font-size: 1.5rem;
+    }
+}
