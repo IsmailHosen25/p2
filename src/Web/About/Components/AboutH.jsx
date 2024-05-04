@@ -20,7 +20,7 @@ export default function AboutH() {
                         <p className={style.exp}>2+ years</p>
                         <p className={style.profe}>Markating</p>
                     </div>
-                    <div className={style.info_item}>
+                    <div className={style.info_item} >
                         <FaUserFriends style={{fontSize:"2.5rem",color:"#0A6847"}}/>
                         <h3 className={style.h}>Education</h3>
                         <p className={style.exp}>B.Sc. Bachelors Degree</p>

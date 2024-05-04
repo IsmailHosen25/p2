@@ -1,10 +1,11 @@
-.img_c{
+.img_g{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    padding-bottom: 3rem;
 }
 .title{
     font-size: 3rem;
@@ -63,6 +64,21 @@
     position: fixed;
     top: 2rem;
     right: 2rem;
+}
+.btn{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color:#F3512F;
+    color: #fff;
+    padding: 0.5rem 1.3rem;
+    transition: 0.2s linear;
+    border: 2px solid #F3512F;
+}
+.btn:hover{
+    border: 2px solid #F3512F;
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s linear;
 }
 @media (max-width:1080px) {
     .img_show{
