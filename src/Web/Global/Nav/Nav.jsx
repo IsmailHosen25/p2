@@ -22,7 +22,7 @@ export default function Nav() {
                 <div className={style.link_div_link}>
                     <Link to={"/certificate"} className={style.link4}>Certificate</Link>
                     <Link to={"/gallery"} className={style.link4}>Gallery</Link>
-                    <HashLink className={style.link4}>Service</HashLink>
+                    <HashLink to={"/#service"} className={style.link4}>Service</HashLink>
                 </div>
 
             </div>

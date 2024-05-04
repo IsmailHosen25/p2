@@ -1,0 +1,77 @@
+.abouth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 3rem 0rem;
+}
+.p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+.heading{
+    margin-top: 1rem;
+    font-size: 4rem;
+    color: #F3512F;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 3rem;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+.my_info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.info_item{
+    text-align: center;
+    border: 1px solid #000;
+    width: 50%;
+    padding: 2rem 0rem;
+    border-radius: 20px;
+}
+.h{
+    font-size: 2rem;
+}
+.exp{
+    font-size: 1.5rem;
+    margin: 0.5rem 0rem;
+}
+.profe{
+    font-size: 1.5rem;
+}
+.self_desc{
+    font-size: 1.7rem;
+}
+@media (max-width:1080px) {
+    .container{
+        flex-direction: column;
+    }
+}
+@media (max-width:780px) {
+    .my_info{
+        flex-direction: column;
+    }
+    .info_item{
+        width: 100%;
+    }
+}
